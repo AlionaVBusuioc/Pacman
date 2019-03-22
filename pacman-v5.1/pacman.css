@@ -1,0 +1,41 @@
+body{
+  background-color: #333;
+}
+#map{
+  width: 500px;
+  height: 500px;
+  border: 5px solid #666;
+}
+#map .square{
+  width: 48px;
+  height: 48px;
+  border: 1px solid #666;
+  float: left;
+}
+#map .pacman{
+  background-image: url(images/pacman.png);
+}
+#map .banan1{
+  background-image: url(images/Banana1.png);
+}
+#map .banan3{
+  background-image: url(images/Banana3.png);
+}
+#map .meanion{
+  background-image: url(images/meanion.png);
+}
+#map .bomb{
+  background-image: url(images/bomb.png);
+}
+#map .explosion{
+  width: 138px;
+  height: 138px;
+  background-image: url(images/explosion.gif);
+  position: relative;
+  top: -45px;
+  left: -45px;
+}
+#map .wall{
+    background-image: url(images/wall.png);
+    background-size: contain;
+}
